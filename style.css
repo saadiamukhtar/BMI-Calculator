@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.box{
+    padding: 20px;
+}
+.input{
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+    font-weight: 500;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+}
